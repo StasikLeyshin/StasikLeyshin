@@ -1,5 +1,4 @@
 name: generate animation
-
 on:
   # Schedule updates (each hour)
   # schedule: [{cron: "0 * * * *"}]
