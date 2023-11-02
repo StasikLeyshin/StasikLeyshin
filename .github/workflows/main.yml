@@ -8,9 +8,9 @@ on:
   push: { branches: ["master", "main"] }
 
 jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-  snake:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 1
     steps:
